@@ -2,7 +2,8 @@
 
 ### The Ultimate AI‑Powered Phishing & Malware URL Scanner
 
-[PhisherKiller Banner](https://i.imgur.com/PhisherKiller.png)
+<p align="center">
+  <img src="https://github.com/techcorp/PhisherKiller-Pro/blob/530ebe28133e10284e02e8b1a61052f0d3965988/PhisherKiller.png" alt="PhishKiller Banner">
 
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,33 +12,24 @@ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.or
 [![VirusTotal](https://img.shields.io/badge/VirusTotal-Integrated-red)](https://virustotal.com)
 [![Gemini
 AI](https://img.shields.io/badge/Gemini%20AI-Powered-green)](https://ai.google.dev)
-
+</p>
+<br>
 ------------------------------------------------------------------------
 
 ## Features
 
-  -----------------------------------------------------------------------
-  Feature                     Description
-  --------------------------- -------------------------------------------
-  **Real VirusTotal Scan**    Checks URL with 90+ antivirus engines
+| Feature | Description |
+|--------|-------------|
+| **Real VirusTotal Scan** | Checks URL with 90+ antivirus engines |
+| **Gemini AI Explanation** | Explains how the phishing attack works |
+| **Smart Danger Score (0–100)** | Calculates risk using domain, content analysis and VT hits |
+| **Animated Progress Bar** | Smooth scanning animation |
+| **Permanent Banner** | Professional look every time |
+| **Menu System** | Scan • View Reports • Exit |
+| **PDF + TXT Reports** | Auto-saves reports with AI verdict |
+| **Works Offline** | Only APIs require internet |
+| **Runs Everywhere** | Windows • Linux • Termux |
 
-  **Gemini AI Explanation**   Explains how the phishing attack works
-
-  **Smart Danger Score        Calculates risk using domain, content
-  (0--100)**                  analysis and VT hits
-
-  **Animated Progress Bar**   Smooth scanning animation
-
-  **Permanent Banner**        Professional look every time
-
-  **Menu System**             Scan • View Reports • Exit
-
-  **PDF + TXT Reports**       Auto‑saves reports with AI verdict
-
-  **Works Offline**           Only APIs require internet
-
-  **Runs Everywhere**         Windows • Linux • Termux
-  -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
