@@ -2,7 +2,7 @@
 
 ### The Ultimate AI‑Powered Phishing & Malware URL Scanner
 
-![PhisherKiller Banner](https://i.imgur.com/0vO8x9K.png)
+[PhisherKiller Banner](https://i.imgur.com/PhisherKiller.png)
 
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
