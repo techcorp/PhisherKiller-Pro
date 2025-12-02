@@ -58,10 +58,22 @@ pip install requests colorama beautifulsoup4 reportlab
 **VirusTotal**\
 Signup → Profile → API Key\
 Free: 500 scans/day
+<br>
+<br>
+<p align="center">
+  <img src="How to Get VirusTotal API Key.png" alt="Virus Total API Key">
+</p>
+<br>
+<br>
 
 **Google Gemini**\
 https://aistudio.google.com/app/apikey\
 Free: 1500 requests/day
+<br>
+<br>
+<p align="center">
+  <img src="How to get Gemini API Keys.png" alt="Gemini API Key">
+</p>
 
 ------------------------------------------------------------------------
 
@@ -105,7 +117,7 @@ python phisherkiller.py
 ``` bash
 pkg install python
 pip install requests colorama beautifulsoup4 reportlab
-git clone https://github.com/YOUR-USERNAME/PhisherKiller-Pro.git
+git clone https://github.com/techcorp/PhisherKiller-Pro.git
 cd PhisherKiller-Pro
 python phisherkiller.py
 ```
@@ -122,5 +134,5 @@ Do not misuse.
 ## Author
 
 **Technical Corp**\
-GitHub: github.com/YOUR-USERNAME\
-YouTube: Technical Corp
+GitHub: github.com/techcorp/
+YouTube: [Technical Corp](https://www.youtube.com/@technicalcorp)
