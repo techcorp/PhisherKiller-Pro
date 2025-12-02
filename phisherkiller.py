@@ -1,6 +1,6 @@
 # =======================================================
-#  PHISHERKILLER PRO 2025 – v24 MENU + EXIT + FRESH VT KEY
-#  Full Menu • Clean Exit • VirusTotal 100% ONLINE • Banner Forever
+#  PHISHERKILLER PRO 2025
+#  Full Menu • VirusTotal • Gemini AI • PDF Report • Banner Forever
 # =======================================================
 
 import os
@@ -24,9 +24,9 @@ try:
 except:
     PDF = False
 
-# FRESH VIRUSTOTAL KEY (0 uses today – 100% WORKING)
-VT_API_KEY     = "e6c53b1c6f563d5b7f2d33d2f9e1c1d8e4b6e8d8f6a6c5d4e3f2a1b2c3d4e5f6"
-GEMINI_API_KEY = "AIzaSyAbrlIQYQ2C4PPZJ7VI2sHl5wGHNFUqiGM"
+# === ADD YOUR API KEYS HERE ===
+GEMINI_API_KEY = "your_gemini_api_key_here"          # Get free: https://aistudio.google.com/app/apikey
+VT_API_KEY     = "your_virustotal_api_key_here"      # Get free: https://www.virustotal.com/gui/join-us
 
 REPORTS_DIR = "PhishKiller_Reports"
 os.makedirs(REPORTS_DIR, exist_ok=True)
@@ -40,8 +40,8 @@ print(f"""
 ██╔═══╝ ██╔══██║██║╚════██║██╔══██║██╔══██║██║██║     ██║     ██╔══╝  ██╔══██╗
 ██║     ██║  ██║██║███████║██║  ██║██║  ██║██║███████╗███████╗███████╗██║  ██║
 ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
-{Fore.CYAN}{Style.BRIGHT}           ULTIMATE AI + VIRUSTOTAL PHISHING KILLER 2025
-{Fore.GREEN}       Created by Technical Corp • https://technicalcorpofficial.com
+{Fore.CYAN}{Style.BRIGHT}       ULTIMATE AI + VIRUSTOTAL PHISHING KILLER 2025
+{Fore.GREEN}         Created by Technical Corp • https://technicalcorpofficial.com
 {Fore.YELLOW}        Subscribe to Technical Corp: https://www.youtube.com/@technicalcorp
 """)
 
@@ -116,8 +116,6 @@ def scan_url():
     speak("Critical threat detected!" if score >= 70 else "Suspicious link")
     input(f"\n{Fore.CYAN}Press Enter to return to menu...")
 
-# === PASTE ALL FUNCTIONS FROM v23.2 HERE (vt_scan, gemini_verdict, etc.) ===
-# I’m including them fully below so you can just copy-paste ONE file:
 
 def vt_scan(url):
     try:
@@ -168,7 +166,7 @@ def calculate_score(url, data, vt_hits):
 def save_report(url, score, vt_status, vt_hits, engines, data, ai_text):
     report = f"""
 ════════════════════════════════════════════════════════════
-              PHISHERKILLER v24 FINAL REPORT
+              PHISHERKILLER FINAL REPORT
 ════════════════════════════════════════════════════════════
 URL           : {url}
 Time          : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
@@ -185,7 +183,7 @@ GEMINI AI VERDICT:
 {ai_text}
 
 ACTION: DELETE • BLOCK • STAY SAFE
-PhisherKiller Pro v24 • Technical Corp
+PhisherKiller Pro • Technical Corp
 ════════════════════════════════════════════════════════════
 """
     txt_file = os.path.join(REPORTS_DIR, f"REPORT_{int(time.time())}.txt")
@@ -212,4 +210,5 @@ PhisherKiller Pro v24 • Technical Corp
 
 # START
 speak("PhisherKiller Pro v24 activated")
+
 main_menu()
