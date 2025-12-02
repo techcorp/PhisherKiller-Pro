@@ -43,8 +43,8 @@ Linux/Termux: Usually preinstalled
 ### 2. Clone the Repository
 
 ``` bash
-python -m venv PhisherKiller
-python3 -m venv PhisherKiller
+python3 -m venv venv
+source venv/bin/activate
 git clone https://github.com/techcorp/PhisherKiller-Pro.git
 cd PhisherKiller-Pro
 ```
